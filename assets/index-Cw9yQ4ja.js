@@ -71,7 +71,7 @@ import{$t as e,A as t,B as n,C as r,J as i,O as a,Qt as o,T as s,U as c,W as l,X
       <div id="viewport"></div>
       <div class="scene-environment" role="group" aria-label="Environment">
         <div class="ambient-control">
-          <div class="ambient-slider" id="ambient-slider" inert aria-hidden="true">${J(`ambient`,`Ambient light`,0,1,.01)}</div>
+          <div class="ambient-slider" id="ambient-slider" inert aria-hidden="true"><div class="range-control"><input id="ambient" name="ambient" type="range" min="0" max="1" step="0.01" aria-label="Ambient light" /></div></div>
           <button class="ambient-button" id="ambient-toggle" aria-label="Adjust ambient light" title="Ambient light" aria-expanded="false" aria-controls="ambient-slider">${K(`sun`)}</button>
         </div>
         <button class="scene-mode-toggle" id="scene-mode" role="switch" aria-label="Dark mode" aria-checked="false"><span id="scene-mode-label">Light mode</span><span class="mode-track" aria-hidden="true"></span></button>
