@@ -1,0 +1,26 @@
+OpenHome Speaker Light Lab - sound preview
+
+Sound cues adapted from UI SFX by Yuki Capital / Romain Simon.
+Audio license: CC0 1.0 Universal. See LICENSE-CC0.txt in this directory.
+Source: https://uisfx.com/
+Repository: https://github.com/romainsimon/uisfx
+Revision: 9950fe66f993a6660dab9c2651dcbcd899ffd83b
+
+Three packs, one folder each. Each pack uses the same cue mapping:
+
+Pack folder   Panel name   Original family
+soft/         Soft         packages/uisfx/sounds/soft
+glass/        Elegant      packages/uisfx/sounds/glass
+cinematic/    Epic         packages/uisfx/sounds/cinematic
+
+error.mp3        <- error.mp3 (unchanged)
+completed.mp3    <- complete.mp3 (unchanged)
+receiving.mp3    <- press.mp3 (unchanged)
+confirmation.mp3 <- select.mp3 (unchanged)
+attention.mp3    <- press.ogg (two taps, second at 420 ms, 82% gain)
+notification.mp3 <- hover.ogg (72% playback rate, 115% gain)
+pairing.mp3      <- connect.mp3 (unchanged)
+volume.mp3       <- press.ogg (115% playback rate, 65% gain)
+
+Adaptations exported as 44.1 kHz mono MP3. These are exploratory
+prototype cues, not a final OpenHome hardware sound specification.
